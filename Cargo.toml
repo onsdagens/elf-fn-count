@@ -6,6 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-asm_riscv = "0.2.0"
+asm_riscv = {git = "https://github.com/onsdagens/wari"}
 clap = { version = "4.5.1", features = ["derive"] }
 riscv-elf-parse = {git="https://github.com/onsdagens/riscv-elf-parse.git"}
